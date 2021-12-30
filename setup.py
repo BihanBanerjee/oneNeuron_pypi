@@ -9,7 +9,7 @@ USER_NAME = "BihanBanerjee"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.1",
+    version="0.0.2",
     author=USER_NAME,
     author_email="banerjeebihan456@gmail.com",
     description="It is an implementation of a perceptron",
@@ -27,4 +27,8 @@ setuptools.setup(
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
     python_requires=">=3.7",
+    istall_requires = [
+        "numpy",
+        "tqdm",
+    ]
 )
