@@ -17,3 +17,11 @@ model.fit(X, y)
 # Reference - 
 [Github docs for Github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
 
+# Datasets
+
+x1 | x2 | y 
+-|-|-
+0|0|0 
+0|1|0
+1|0|0
+1|1|1
